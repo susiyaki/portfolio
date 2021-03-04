@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "typecheck": "tsc"
   },
   "dependencies": {
     "@emotion/babel-preset-css-prop": "^11.2.0",
@@ -19,6 +20,7 @@
     "remark-html": "^12.0.0",
     "styled-components": "^5.2.1",
     "tailwindcss": "^2.0.3",
+    "tsc": "^1.20150623.0",
     "twin.macro": "^2.3.0"
   },
   "devDependencies": {
