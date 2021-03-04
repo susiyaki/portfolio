@@ -1,6 +1,8 @@
+import "twin.macro";
+
 export default () => {
   return (
-    <div>
+    <div tw="bg-red-50">
       <p>susiyaki portfolio</p>
     </div>
   );
