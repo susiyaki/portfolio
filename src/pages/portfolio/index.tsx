@@ -1,9 +1,11 @@
 import "twin.macro";
 
-export default () => {
+const Portfolio = () => {
   return (
-    <div tw="bg-red-50">
-      <p>susiyaki portfolio</p>
+    <div tw="bg-gray-50">
+      <p>portfolio!!</p>
     </div>
   );
 };
+
+export default Portfolio;
