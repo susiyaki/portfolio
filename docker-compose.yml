@@ -2,10 +2,10 @@ version: '3'
 
 services:
   nextjs:
-    command: yarn dev
+    container_name: portfolio
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: ./docker/Dockerfile
     ports:
       - "3000:3000"
     volumes:
